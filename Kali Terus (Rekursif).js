@@ -4,10 +4,10 @@ function kaliTerusRekursif(angka) {
         return angka
     }else{
         var hasil = 1;
-    for (var i = 0; i < angka.toString().length; i++) {
-      hasil = hasil * Number(angka.toString()[i]);
-    }
-    return kaliTerusRekursif(hasil);
+        for (var i = 0; i < angka.toString().length; i++) {
+            hasil = hasil * Number(angka.toString()[i]);
+        }
+        return kaliTerusRekursif(hasil);
     }
 }
 
